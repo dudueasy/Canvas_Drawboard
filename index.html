@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>我的画板</title>
+    <script src="//at.alicdn.com/t/font_482916_l662j1crsw3tyb9.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="canvas" width="300px" height="400px"></canvas>
+
+<div class="actions">
+    <svg class="icon" aria-hidden="true" id="cleaner">
+        <use xlink:href="#icon-qingchuhuancun"></use>
+    </svg>
+    <svg class="icon" aria-hidden="true" id="eraser">
+        <use xlink:href="#icon-eraser"></use>
+    </svg>
+    <svg class="icon" aria-hidden="true" id="brush">
+        <use xlink:href="#icon-pen"></use>
+    </svg>
+    <svg class="icon" aria-hidden="true" id="save">
+        <use xlink:href="#icon-xiazai"></use>
+    </svg>
+
+</div>
+<ol class="colors" id="colors">
+    <li class="black" id="black"></li>
+    <li class="red" id="red"></li>
+    <li class="blue" id="blue"></li>
+    <li class="green" id="green"></li>
+</ol>
+<ol class="sizes" id="sizes">
+    <li class="thin"></li>
+    <li class="normal"></li>
+    <li class="thick"></li>
+</ol>
+
+<script src="script.js"></script>
+
+</body>
+</html>
